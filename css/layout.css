@@ -1,0 +1,18 @@
+header {
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  z-index: 999;
+  transition: background 0.4s;
+}
+header .wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
